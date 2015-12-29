@@ -1,0 +1,92 @@
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+c:\users\giann\documents\visual studio 2015\Projects\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+C:\Users\giann\Desktop\Gip opdracht - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+C:\Users\6NI12\Desktop\Gip\Gip opdracht - Game\bin\Debug\ReadMe.txt
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - Game\Gip opdracht - Game\bin\Debug\ReadMe.txt
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\bin\Debug\ReadMe.txt
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+C:\Users\giann\Documents\Visual Studio 2015\Projects\GIP - New Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\ReadMe.txt
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\ReadMe.txt
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.pdb
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.manifest
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.application
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe.manifest
+C:\Users\giann\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.application
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.manifest
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.application
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe.manifest
+C:\Users\6NI12\Desktop\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.application
+F:\Gip - Game\Gip opdracht - Game\bin\Debug\Gip opdracht - Game.exe.config
+F:\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.exe
+F:\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csprojResolveAssemblyReference.cache
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Gip opdracht - Game.csproj.GenerateResource.Cache
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.exe.config
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources

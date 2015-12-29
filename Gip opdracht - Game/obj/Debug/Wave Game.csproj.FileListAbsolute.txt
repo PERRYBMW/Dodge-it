@@ -1,0 +1,16 @@
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.exe.config
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Debug\Wave Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.csproj.GenerateResource.Cache
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Debug\Wave Game.csprojResolveAssemblyReference.cache
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Wave Game.exe.config
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Wave Game.pdb

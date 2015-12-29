@@ -1,0 +1,13 @@
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Release\Wave Game.exe.config
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Release\Wave Game.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Release\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Release\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\bin\Release\Wave Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Gip_opdracht___Game.GameWindow.resources
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Gip_opdracht___Game.Properties.Resources.resources
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Gip opdracht - Game.csproj.GenerateResource.Cache
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Wave Game.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Wave Game.exe
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Wave Game.pdb
+D:\Visual Studio\Projects\Gip - Game\Gip opdracht - Game\obj\Release\Gip opdracht - Game.csprojResolveAssemblyReference.cache
