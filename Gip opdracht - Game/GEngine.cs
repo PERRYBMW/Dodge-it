@@ -94,7 +94,7 @@ namespace Gip_opdracht___Game
                     Menu.StartScreen.calculateMenu();
                 }
                 //Game
-                if (Variables.intGameState == 1)
+                if (Variables.intGameState == 1 || Variables.intGameState == 2)
                 {
                     //Effects
                     //Tail
@@ -132,9 +132,8 @@ namespace Gip_opdracht___Game
                     //Calculate
                     recalculateGame();
                 }
-                //Cmd help
-                
 
+                
 
                 //Draw to panel
                 drawHandle.DrawImage(frame, 0, 0);             
@@ -154,6 +153,8 @@ namespace Gip_opdracht___Game
                     Console.WriteLine("Time left: " + Convert.ToString(Control.LevelControl.Variables.intLevelTicks - Control.LevelControl.Variables.intTimerTicks) + " / " + Convert.ToString(Control.LevelControl.Variables.intLevelTicks));
                     Console.WriteLine("");
                     Console.WriteLine("Clicked at: " + GameWindow.Variables.mouseClick);
+                    Console.WriteLine("");
+                    Console.WriteLine("Timer enabled: " + GameWindow.tmrTick.Enabled);
                     framesRendered = 0;
                     startTime = Environment.TickCount;
                 }

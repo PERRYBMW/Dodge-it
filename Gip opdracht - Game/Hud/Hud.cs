@@ -38,7 +38,7 @@ namespace Gip_opdracht___Game.Hud
             }
             if(Control.LevelControl.Variables.intTimerTicks < 3 && Control.LevelControl.Variables.intGameLevel == 1)
             {
-                Variables.stringStatus = "Move with Z, Q, S and D";
+                Variables.stringStatus = "Move with " + Menu.StartScreen.Variables.stringKeyInput;
             }
             if (Entity.Player.Player.Variables.boolPlayerIsDead == true)
             {

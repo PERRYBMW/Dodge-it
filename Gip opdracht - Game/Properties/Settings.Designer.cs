@@ -23,12 +23,63 @@ namespace Gip_opdracht___Game.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool cmdInfo {
             get {
                 return ((bool)(this["cmdInfo"]));
+            }
+            set {
+                this["cmdInfo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("90")]
+        public int keyUp {
+            get {
+                return ((int)(this["keyUp"]));
+            }
+            set {
+                this["keyUp"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("83")]
+        public int keyDown {
+            get {
+                return ((int)(this["keyDown"]));
+            }
+            set {
+                this["keyDown"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("81")]
+        public int keyLeft {
+            get {
+                return ((int)(this["keyLeft"]));
+            }
+            set {
+                this["keyLeft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("68")]
+        public int keyRight {
+            get {
+                return ((int)(this["keyRight"]));
+            }
+            set {
+                this["keyRight"] = value;
             }
         }
     }

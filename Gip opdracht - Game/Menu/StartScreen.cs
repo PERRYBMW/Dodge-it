@@ -19,11 +19,17 @@ namespace Gip_opdracht___Game.Menu
             public static List<string> listStringButtonString = new List<string>();
             public static Font fontMenu = new Font("Arial", 25);
             public static Color colorMenu = Color.DarkBlue;
+
+            public static string stringKeyInput = "azerty";
+            public static int intCoolDownTime = 10;
+            public static int intCoolDown = intCoolDownTime;
         }
         //Load menu
         public static void loadMenu()
         {
             addMenuButton(483, 100, 250, 75, Color.White, "Start", 80, 16);
+            addMenuButton(483, 400, 250, 75, Color.White, Variables.stringKeyInput, 80, 16);
+            addMenuButton(483, 250, 250, 75, Color.White, "Play random", 32, 16);
         }
         //Add button
         public static void addMenuButton(int x, int y, int width, int height, Color color, string stringButton, int offsetX, int offsetY)
@@ -41,7 +47,53 @@ namespace Gip_opdracht___Game.Menu
             {
                 if (GameWindow.Variables.mouseClick.X <= Variables.listPointButtonLocations[count].X + Variables.listSizeButtonSize[count].Width && GameWindow.Variables.mouseClick.X >= Variables.listPointButtonLocations[count].X && GameWindow.Variables.mouseClick.Y >= Variables.listPointButtonLocations[count].Y && GameWindow.Variables.mouseClick.Y <= Variables.listPointButtonLocations[count].Y + Variables.listSizeButtonSize[count].Height)
                 {
-                    GEngine.Variables.intGameState = count + 1;
+                    if(count == 0)
+                    {
+                        //Start
+                        GEngine.Variables.intGameState = 1;
+                    }
+                    else if(count == 2)
+                    {
+                        //Random
+                        GEngine.Variables.intGameState = 2;
+                    }
+                    else if(count == 1 && Variables.intCoolDown == Variables.intCoolDownTime)
+                    {
+                        //Keys
+                        if(Variables.stringKeyInput == "qwerty")
+                        {
+                            Variables.stringKeyInput = "azerty";
+                            Properties.Settings.Default.keyUp = 90;
+                            Properties.Settings.Default.keyDown = 83;
+                            Properties.Settings.Default.keyLeft = 81;
+                            Properties.Settings.Default.keyRight = 68;
+                        }
+                        else if(Variables.stringKeyInput == "azerty")
+                        {
+                            Variables.stringKeyInput = "arrows";
+                            Properties.Settings.Default.keyUp = 38;
+                            Properties.Settings.Default.keyDown = 40;
+                            Properties.Settings.Default.keyLeft = 37;
+                            Properties.Settings.Default.keyRight = 39;
+                        }
+                        else if(Variables.stringKeyInput == "arrows")
+                        {
+                            Variables.stringKeyInput = "qwerty";
+                            Properties.Settings.Default.keyUp = 87;
+                            Properties.Settings.Default.keyDown = 83;
+                            Properties.Settings.Default.keyLeft = 65;
+                            Properties.Settings.Default.keyRight = 68;
+                        }
+                        Variables.listStringButtonString[1] = Variables.stringKeyInput;
+                        Variables.intCoolDown = 0;
+                    }
+                    else
+                    {
+                        if(Variables.intCoolDown < Variables.intCoolDownTime)
+                        {
+                            Variables.intCoolDown++;
+                        }
+                    }
                 }
             }
         }

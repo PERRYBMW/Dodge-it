@@ -19,21 +19,37 @@ namespace Gip_opdracht___Game.Control
             public static bool boolForcespawn = false;
 
             public static int intLastWave = 0;
+
+            public static int intPlayerRandomSafety = 100;
         }
         //Calculate
         public static void calculateLevel()
         {
-            if(Variables.intTimerTicks == Variables.intLevelTicks)
+            //Normal
+            if(Variables.intTimerTicks == Variables.intLevelTicks && GEngine.Variables.intGameState == 1)
             {
                 GameWindow.tmrTick.Enabled = false;
                 Variables.intGameLevel++;
                 Variables.intTimerTicks = 0;
                 getSpawnControlByLevel(Variables.intGameLevel);
             }
-            if(Variables.boolForcespawn == true)
+            if(Variables.boolForcespawn == true && GEngine.Variables.intGameState == 1)
             {
                 Variables.boolForcespawn = false;
                 getSpawnControlByLevel(Variables.intGameLevel);
+            }
+            //Random
+            if (Variables.intTimerTicks == Variables.intLevelTicks && GEngine.Variables.intGameState == 2)
+            {
+                GameWindow.tmrTick.Enabled = false;
+                Variables.intGameLevel++;
+                Variables.intTimerTicks = 0;
+                getSpawnControlByRandom(Variables.intGameLevel);
+            }
+            if (Variables.boolForcespawn == true && GEngine.Variables.intGameState == 2)
+            {
+                Variables.boolForcespawn = false;
+                getSpawnControlByRandom(Variables.intGameLevel);
             }
         }
 
@@ -295,5 +311,33 @@ namespace Gip_opdracht___Game.Control
             }
         }
 
+        public static void getSpawnControlByRandom(int level)
+        {
+            if (Entity.Enemy.Enemy.Variables.listEnemyLocations.Count == 0 && level > 0)
+            {
+                for(int count = 1; count <= 50; count++)
+                {
+                    if(Utilities.rnd.getRandomInt(0, 100) <= 67)
+                    {
+                        int size = Utilities.rnd.getRandomInt(16, 64);
+                        Point point = new Point(Utilities.rnd.getRandomInt(0, Game.CANVAS_WIDTH - size), Utilities.rnd.getRandomInt(0, Game.CANVAS_HEIGHT - size));
+                        int playerSize = Entity.Player.Player.Variables.sizePlayerSize.Width;
+                        Point pointPlayer = Entity.Player.Player.Variables.pointPlayerLocation;
+                        if (pointPlayer.X - Variables.intPlayerRandomSafety < point.X + size + Variables.intPlayerRandomSafety && point.X + playerSize + Variables.intPlayerRandomSafety > point.X - Variables.intPlayerRandomSafety && pointPlayer.Y  - Variables.intPlayerRandomSafety < point.Y + size + Variables.intPlayerRandomSafety && playerSize + pointPlayer.Y + Variables.intPlayerRandomSafety > point.Y - Variables.intPlayerRandomSafety)
+                        {
+                        }
+                        else
+                        {
+                            Entity.Enemy.Enemy.createEnemy(point.X, point.Y, size, size, Utilities.rnd.getRandomInt(1, 6), Utilities.rnd.getRandomInt(1, 6), false, new SolidBrush(Utilities.rnd.getRandomColor()));
+                        }
+                    }
+                }
+                GameWindow.tmrTick.Enabled = true;               
+            }
+            else
+            {
+                Variables.boolForcespawn = true;
+            }
+        }
     }
 }

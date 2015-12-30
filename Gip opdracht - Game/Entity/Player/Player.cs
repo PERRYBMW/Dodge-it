@@ -20,6 +20,7 @@ namespace Gip_opdracht___Game.Entity.Player
             public static bool boolPlayerIsDead = false;
 
             public static bool boolGodMode = false;
+
         }
 
         public static int xVel = 0;
@@ -36,22 +37,22 @@ namespace Gip_opdracht___Game.Entity.Player
             if (Variables.boolPlayerCanMove == true)
             {
                 //Up
-                if (GameWindow.Variables.keyBoard[90] == true && Variables.pointPlayerLocation.Y - playerVerticalMoveSpeed >= 0)
+                if (GameWindow.Variables.keyBoard[Properties.Settings.Default.keyUp] == true && Variables.pointPlayerLocation.Y - playerVerticalMoveSpeed >= 0)
                 {
                     yVel = yVel - playerVerticalMoveSpeed;
                 }
                 //Down
-                if (GameWindow.Variables.keyBoard[83] == true && Variables.pointPlayerLocation.Y + playerVerticalMoveSpeed <= Game.CANVAS_HEIGHT - Variables.sizePlayerSize.Height)
+                if (GameWindow.Variables.keyBoard[Properties.Settings.Default.keyDown] == true && Variables.pointPlayerLocation.Y + playerVerticalMoveSpeed <= Game.CANVAS_HEIGHT - Variables.sizePlayerSize.Height)
                 {
                     yVel = yVel + playerVerticalMoveSpeed;
                 }
                 //Left
-                if (GameWindow.Variables.keyBoard[81] == true && Variables.pointPlayerLocation.X - playerHorizontalMoveSpeed >= 0)
+                if (GameWindow.Variables.keyBoard[Properties.Settings.Default.keyLeft] == true && Variables.pointPlayerLocation.X - playerHorizontalMoveSpeed >= 0)
                 {
                     xVel = xVel - playerHorizontalMoveSpeed;
                 }
                 //Right
-                if (GameWindow.Variables.keyBoard[68] == true && Variables.pointPlayerLocation.X + playerHorizontalMoveSpeed <= Game.CANVAS_WIDTH - Variables.sizePlayerSize.Width)
+                if (GameWindow.Variables.keyBoard[Properties.Settings.Default.keyRight] == true && Variables.pointPlayerLocation.X + playerHorizontalMoveSpeed <= Game.CANVAS_WIDTH - Variables.sizePlayerSize.Width)
                 {
                     xVel = xVel + playerHorizontalMoveSpeed;
                 }

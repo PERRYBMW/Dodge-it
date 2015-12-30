@@ -38,7 +38,7 @@ namespace Gip_opdracht___Game
         private void aTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
             //If the game is playing
-            if(GEngine.Variables.intGameState == 1)
+            if(GEngine.Variables.intGameState == 1 || GEngine.Variables.intGameState == 2)
             {
                 Control.LevelControl.Variables.intTimerTicks++;     
             }

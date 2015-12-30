@@ -2,8 +2,20 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Gip_opdracht___Game.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="cmdInfo" Type="System.Boolean" Scope="Application">
+    <Setting Name="cmdInfo" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="keyUp" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">90</Value>
+    </Setting>
+    <Setting Name="keyDown" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">83</Value>
+    </Setting>
+    <Setting Name="keyLeft" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">81</Value>
+    </Setting>
+    <Setting Name="keyRight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">68</Value>
     </Setting>
   </Settings>
 </SettingsFile>

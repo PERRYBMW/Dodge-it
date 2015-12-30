@@ -43,24 +43,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wave Game.exe" size="79360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wave Game.exe" size="81920">
       <assemblyIdentity name="Wave Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>S1S4nahoGSg/rf0Dy3iBDyFlKrvaJ6P0cv4bDk28KcA=</dsig:DigestValue>
+        <dsig:DigestValue>icTYE7ph/9LFj7ZOdTxH196DSnC5RiU7kxvGNzxCI94=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Wave Game.exe.config" size="941">
+  <file name="Wave Game.exe.config" size="1424">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TjAyMzFhT2fEy1nuqf1TDQ6IGoW/jZbe8fZ4/kgE11I=</dsig:DigestValue>
+      <dsig:DigestValue>Ah7scBTv4GeBsQoJoZvNJ8DHA11KyCeeVDnOOuYqPBE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="WaveGame.ico" size="26014">
