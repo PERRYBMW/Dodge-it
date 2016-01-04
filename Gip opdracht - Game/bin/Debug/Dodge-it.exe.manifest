@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Wave Game.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="WaveGame.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="Dodge-it.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Dodge-it.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Wave Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-    <commandLine file="Wave Game.exe" parameters="" />
+    <assemblyIdentity name="Dodge-it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Dodge-it.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -43,33 +43,60 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wave Game.exe" size="81920">
-      <assemblyIdentity name="Wave Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dodge-it.exe" size="202752">
+      <assemblyIdentity name="Dodge-it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aJHMVBraQz5THHsAL+oB/6P/+KgHDid9xCenInAgN34=</dsig:DigestValue>
+        <dsig:DigestValue>73zbX8ZPOKOjyeybzbOUzJh9u8q9r+yRtV6jUWNHIXE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Wave Game.exe.config" size="1424">
+  <file name="Dodge-it.exe.config" size="1597">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Ah7scBTv4GeBsQoJoZvNJ8DHA11KyCeeVDnOOuYqPBE=</dsig:DigestValue>
+      <dsig:DigestValue>tGr3PkvMO46EdDmkHO1XXjUzgPEiYRGJh2k2Q/A8uvE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WaveGame.ico" size="26014">
+  <file name="Dodge-it.ico" size="26014">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>NR9CZmckKvJHXWO8pluMYIfd22kZdqUurlbjoLMWzkA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Explosion.wav" size="61900">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ACLin+u6pR+cIzE0E8dwzutD5Jmdx+sq9FPLgkBiddw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Select.wav" size="7906">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/9P7qO4FY2Yim+cWF3HqwHaq6nwkJaRIiz4oI9Yq+94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Spawn.wav" size="48482">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5AXb94mMMDNi4LGonHN1xxP/rv6J5SIjRYRzI5kosuU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

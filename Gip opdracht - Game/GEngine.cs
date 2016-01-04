@@ -40,6 +40,9 @@ namespace Gip_opdracht___Game
         //Stop rendering
         public void stop()
         {
+            //Save settings
+            Control.GameControl.saveGame();
+            //Stop / abort
             renderThread.Abort();
         }
 
@@ -89,7 +92,7 @@ namespace Gip_opdracht___Game
                         //Draw the string
                         frameGraphics.DrawString(Menu.StartScreen.Variables.listStringButtonString[count], Menu.StartScreen.Variables.fontMenu, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[count]), Menu.StartScreen.Variables.listPointButtonLocations[count].X + Menu.StartScreen.Variables.listSizeStringButtonOffset[count].Width, Menu.StartScreen.Variables.listPointButtonLocations[count].Y + Menu.StartScreen.Variables.listSizeStringButtonOffset[count].Height);
                     }
-                    frameGraphics.DrawString("Last wave: " + Convert.ToString(Control.LevelControl.Variables.intLastWave), Menu.StartScreen.Variables.fontMenu, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[0]), 0, 0);
+                    frameGraphics.DrawString(("Normal highscore: " + Properties.Settings.Default.HighScoreNormal + ", random highscore: " + Properties.Settings.Default.HighScoreRandom), Menu.StartScreen.Variables.fontMenu, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[0]), 0, 0);
                     //Draw latest score
                     Menu.StartScreen.calculateMenu();
                 }
@@ -112,7 +115,7 @@ namespace Gip_opdracht___Game
                     //Player
                     if (Entity.Player.Player.Variables.boolPlayerIsDead == false)
                     {
-                        frameGraphics.FillRectangle(Entity.Player.Player.Variables.colorPlayerColor, Entity.Player.Player.Variables.pointPlayerLocation.X, Entity.Player.Player.Variables.pointPlayerLocation.Y, Entity.Player.Player.Variables.sizePlayerSize.Width, Entity.Player.Player.Variables.sizePlayerSize.Height);
+                        frameGraphics.FillRectangle(new SolidBrush(Color.FromArgb(Properties.Settings.Default.playerColor.R, Properties.Settings.Default.playerColor.G, Properties.Settings.Default.playerColor.B)), Entity.Player.Player.Variables.pointPlayerLocation.X, Entity.Player.Player.Variables.pointPlayerLocation.Y, Entity.Player.Player.Variables.sizePlayerSize.Width, Entity.Player.Player.Variables.sizePlayerSize.Height);
                     }
 
                     //Effects              
@@ -125,17 +128,16 @@ namespace Gip_opdracht___Game
                     //HUD
                     //Level
                     frameGraphics.DrawString(Hud.Hud.Variables.stringLevel, Hud.Hud.Variables.fontHud, Hud.Hud.Variables.solidBrushHud, Hud.Hud.Variables.pointLevel);
-                    //Status
+                    //Status / ingame info
                     frameGraphics.DrawString(Hud.Hud.Variables.stringStatus, Hud.Hud.Variables.fontHud, Hud.Hud.Variables.solidBrushHud, Hud.Hud.Variables.pointStatus);
 
                     //Do not change
                     //Calculate
                     recalculateGame();
-                }
-
-                
+                }               
 
                 //Draw to panel
+                
                 drawHandle.DrawImage(frame, 0, 0);             
 
                 //Benchmarking
@@ -155,6 +157,8 @@ namespace Gip_opdracht___Game
                     Console.WriteLine("Clicked at: " + GameWindow.Variables.mouseClick);
                     Console.WriteLine("");
                     Console.WriteLine("Timer enabled: " + GameWindow.tmrTick.Enabled);
+                    Console.WriteLine("");
+                    Console.WriteLine("Player color: " + Properties.Settings.Default.playerColor);
                     framesRendered = 0;
                     startTime = Environment.TickCount;
                 }

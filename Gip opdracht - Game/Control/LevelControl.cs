@@ -59,6 +59,11 @@ namespace Gip_opdracht___Game.Control
         //By Level
         public static void getSpawnControlByLevel(int level)
         {
+            if(Entity.Enemy.Enemy.Variables.listEnemyLocations.Count == 0)
+            {
+                //Sound
+                Effects.Sound.playSoundSpawn();
+            }
             if (level == 1 && Entity.Enemy.Enemy.Variables.listEnemyLocations.Count == 0)
             {
                 //Line 1
@@ -315,7 +320,8 @@ namespace Gip_opdracht___Game.Control
         {
             if (Entity.Enemy.Enemy.Variables.listEnemyLocations.Count == 0 && level > 0)
             {
-                for(int count = 1; count <= 50; count++)
+                Effects.Sound.playSoundSpawn();
+                for (int count = 1; count <= 50; count++)
                 {
                     if(Utilities.rnd.getRandomInt(0, 100) <= 67)
                     {

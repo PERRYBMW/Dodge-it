@@ -82,5 +82,41 @@ namespace Gip_opdracht___Game.Properties {
                 this["keyRight"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Blue")]
+        public global::System.Drawing.Color playerColor {
+            get {
+                return ((global::System.Drawing.Color)(this["playerColor"]));
+            }
+            set {
+                this["playerColor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int HighScoreNormal {
+            get {
+                return ((int)(this["HighScoreNormal"]));
+            }
+            set {
+                this["HighScoreNormal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int HighScoreRandom {
+            get {
+                return ((int)(this["HighScoreRandom"]));
+            }
+            set {
+                this["HighScoreRandom"] = value;
+            }
+        }
     }
 }

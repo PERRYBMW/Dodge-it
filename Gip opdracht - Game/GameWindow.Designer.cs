@@ -56,7 +56,7 @@
             this.MaximumSize = new System.Drawing.Size(1232, 743);
             this.MinimumSize = new System.Drawing.Size(1232, 743);
             this.Name = "GameWindow";
-            this.Text = "Wave Game";
+            this.Text = "Dodge-it";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GameWindow_FormClosing);
             this.Load += new System.EventHandler(this.GameWindow_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GameWindow_KeyDown);

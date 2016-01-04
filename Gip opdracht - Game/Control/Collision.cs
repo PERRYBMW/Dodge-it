@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using System.Drawing;
 
 namespace Gip_opdracht___Game.Control
 {
@@ -27,16 +28,26 @@ namespace Gip_opdracht___Game.Control
         {
             if (Entity.Player.Player.Variables.boolPlayerIsDead == Entity.Player.Player.Variables.boolGodMode)
             {
+                Effects.Sound.playSoundExplosion();
                 GameWindow.tmrTick.Enabled = false;
                 Entity.Player.Player.Variables.boolPlayerIsDead = true;
                 Entity.Player.Player.Variables.boolPlayerCanMove = false;
                 //Explosion effect
-                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X, Entity.Player.Player.Variables.pointPlayerLocation.Y, -2, -2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, Entity.Player.Player.Variables.colorPlayerColor);
-                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X + Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.pointPlayerLocation.Y, 2, -2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, Entity.Player.Player.Variables.colorPlayerColor);
-                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X + Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.pointPlayerLocation.Y + Entity.Player.Player.Variables.sizePlayerSize.Height / 2, 2, 2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, Entity.Player.Player.Variables.colorPlayerColor);
-                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X, Entity.Player.Player.Variables.pointPlayerLocation.Y + Entity.Player.Player.Variables.sizePlayerSize.Height / 2, -2, 2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, Entity.Player.Player.Variables.colorPlayerColor);
-                //Last wave
-                LevelControl.Variables.intLastWave = LevelControl.Variables.intGameLevel;
+                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X, Entity.Player.Player.Variables.pointPlayerLocation.Y, -2, -2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, new SolidBrush(Color.FromArgb(Properties.Settings.Default.playerColor.R, Properties.Settings.Default.playerColor.G, Properties.Settings.Default.playerColor.B)));
+                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X + Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.pointPlayerLocation.Y, 2, -2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, new SolidBrush(Color.FromArgb(Properties.Settings.Default.playerColor.R, Properties.Settings.Default.playerColor.G, Properties.Settings.Default.playerColor.B)));
+                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X + Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.pointPlayerLocation.Y + Entity.Player.Player.Variables.sizePlayerSize.Height / 2, 2, 2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, new SolidBrush(Color.FromArgb(Properties.Settings.Default.playerColor.R, Properties.Settings.Default.playerColor.G, Properties.Settings.Default.playerColor.B)));
+                Effects.Explosion.addExplosion(Entity.Player.Player.Variables.pointPlayerLocation.X, Entity.Player.Player.Variables.pointPlayerLocation.Y + Entity.Player.Player.Variables.sizePlayerSize.Height / 2, -2, 2, Entity.Player.Player.Variables.sizePlayerSize.Width / 2, Entity.Player.Player.Variables.sizePlayerSize.Height / 2, new SolidBrush(Color.FromArgb(Properties.Settings.Default.playerColor.R, Properties.Settings.Default.playerColor.G, Properties.Settings.Default.playerColor.B)));
+                
+                //Wave scores
+                if(GEngine.Variables.intGameState == 1)
+                {
+                    ScoreControl.calculateHighScoreNormal(LevelControl.Variables.intGameLevel);
+                }
+                else if(GEngine.Variables.intGameState == 2)
+                {
+                    ScoreControl.calculateHighScoreRandom(LevelControl.Variables.intGameLevel);
+                }
+                Control.GameControl.saveGame();
             }
 
         }

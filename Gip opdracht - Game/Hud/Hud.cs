@@ -24,7 +24,7 @@ namespace Gip_opdracht___Game.Hud
         
         public static void updateStrings()
         {
-            Variables.stringLevel = "Level: " + Control.LevelControl.Variables.intGameLevel;
+            Variables.stringLevel = "Wave: " + Control.LevelControl.Variables.intGameLevel;
 
             //Status
             if (Control.LevelControl.Variables.intTimerTicks >= Control.LevelControl.Variables.intLevelTicks - 3 || Control.LevelControl.Variables.boolForcespawn == true)

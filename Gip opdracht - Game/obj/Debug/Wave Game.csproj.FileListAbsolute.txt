@@ -24,3 +24,4 @@ D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Gip
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Wave Game.csproj.GenerateResource.Cache
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Wave Game.exe.manifest
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Wave Game.application
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Dodge-it.exe.config

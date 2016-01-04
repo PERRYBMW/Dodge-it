@@ -17,5 +17,14 @@
     <Setting Name="keyRight" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">68</Value>
     </Setting>
+    <Setting Name="playerColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="HighScoreNormal" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HighScoreRandom" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

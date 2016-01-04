@@ -13,11 +13,14 @@ namespace Gip_opdracht___Game.Control
         {
             if(Entity.Player.Player.Variables.boolPlayerIsDead == true && GameWindow.Variables.keyBoard[82] == true)
             {
+                Effects.Sound.playSoundSelect();
                 resetGame();
                 //Play again
             }
             if (Entity.Player.Player.Variables.boolPlayerIsDead == true && GameWindow.Variables.keyBoard[8] == true)
             {
+                Effects.Sound.playSoundSelect();
+                resetGame();
                 GEngine.Variables.intGameState = 0;
                 //Go to menu
             }
@@ -36,6 +39,12 @@ namespace Gip_opdracht___Game.Control
             //Reset level + score
             LevelControl.Variables.intGameLevel = 0;
             LevelControl.Variables.intTimerTicks = LevelControl.Variables.intLevelTicks;
+        }
+        //Save
+        public static void saveGame()
+        {
+            //Save
+            Properties.Settings.Default.Save();
         }
     }
 }

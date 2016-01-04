@@ -8,12 +8,12 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Gip_opdracht___Game</RootNamespace>
-    <AssemblyName>Wave Game</AssemblyName>
+    <AssemblyName>Dodge-it</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Gebruiker\Desktop\Wave Game V1.0.0.4\</PublishUrl>
+    <PublishUrl>C:\Users\Gebruiker\Desktop\Dodge-it V1.0.0.5\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -23,13 +23,13 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <SupportUrl>http://officialwave.weebly.com/</SupportUrl>
-    <ErrorReportUrl>http://officialwave.weebly.com/</ErrorReportUrl>
+    <SupportUrl>http://dodge-it.weebly.com/</SupportUrl>
+    <ErrorReportUrl>http://dodge-it.weebly.com/</ErrorReportUrl>
     <TargetCulture>en</TargetCulture>
-    <ProductName>Wave Game</ProductName>
-    <PublisherName>Gianni</PublisherName>
-    <ApplicationRevision>4</ApplicationRevision>
-    <ApplicationVersion>1.0.0.4</ApplicationVersion>
+    <ProductName>Dodge-it</ProductName>
+    <PublisherName>Gianni &amp; Louis</PublisherName>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.5</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -67,12 +67,14 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>WaveGame.ico</ApplicationIcon>
+    <ApplicationIcon>Dodge-it.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -87,7 +89,9 @@
     <Compile Include="Control\Collision.cs" />
     <Compile Include="Control\GameControl.cs" />
     <Compile Include="Control\LevelControl.cs" />
+    <Compile Include="Control\ScoreControl.cs" />
     <Compile Include="Effects\Explosion.cs" />
+    <Compile Include="Effects\Sound.cs" />
     <Compile Include="Effects\Tail.cs" />
     <Compile Include="Entity\Enemy\Enemy.cs" />
     <Compile Include="Entity\Player\Player.cs" />
@@ -108,7 +112,7 @@
       <DependentUpon>GameWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -131,7 +135,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WaveGame.ico" />
+    <Content Include="Dodge-it.ico" />
+    <Content Include="Resources\Select.wav" />
+    <Content Include="Resources\Explosion.wav" />
+    <Content Include="Resources\Spawn.wav" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

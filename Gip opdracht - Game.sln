@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wave Game", "Gip opdracht - Game\Wave Game.csproj", "{7D8800B0-C81D-492E-8DEF-6D4B029B6AA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dodge-it", "Gip opdracht - Game\Dodge-it.csproj", "{7D8800B0-C81D-492E-8DEF-6D4B029B6AA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

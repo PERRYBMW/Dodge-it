@@ -54,7 +54,7 @@ namespace Gip_opdracht___Game
 
             //Size 
             Variables.gameWindowHeight = Size.Height;
-            Variables.gameWindowHeight = Size.Width;       
+            Variables.gameWindowHeight = Size.Width;
         }
 
         private void canvas_Paint(object sender, PaintEventArgs e)

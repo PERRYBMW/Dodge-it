@@ -15,12 +15,9 @@ namespace Gip_opdracht___Game.Entity.Player
             public static Point pointPlayerStartLocation = new Point(608, 344);
             public static Point pointPlayerLocation = pointPlayerStartLocation;
             public static Size sizePlayerSize = new Size(32, 32);
-            public static Brush colorPlayerColor = Brushes.DarkBlue;
             public static bool boolPlayerCanMove = true;
             public static bool boolPlayerIsDead = false;
-
             public static bool boolGodMode = false;
-
         }
 
         public static int xVel = 0;
