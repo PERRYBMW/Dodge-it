@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\Gebruiker\Desktop\Dodge-it V1.0.0.5\|C:\Users\Gebruiker\Desktop\Dodge-it V1.0.0.4\|C:\Users\Gebruiker\Desktop\Wave Game V1.0.0.4\|C:\Users\Gebruiker\Desktop\Wave Game V1.0.0.3\|C:\Users\Gebruiker\Desktop\WaveGame\</PublishUrlHistory>
+    <PublishUrlHistory>C:\Users\Gebruiker\Desktop\Dodge it V1.0.0.6\|C:\Users\Gebruiker\Desktop\Dodge-it V1.0.0.5\|C:\Users\Gebruiker\Desktop\Dodge-it V1.0.0.4\|C:\Users\Gebruiker\Desktop\Wave Game V1.0.0.4\|C:\Users\Gebruiker\Desktop\Wave Game V1.0.0.3\</PublishUrlHistory>
     <InstallUrlHistory />
-    <SupportUrlHistory>http://officialwave.weebly.com/</SupportUrlHistory>
+    <SupportUrlHistory>http://dodge-it.weebly.com/|http://officialwave.weebly.com/</SupportUrlHistory>
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
-    <ErrorReportUrlHistory>http://officialwave.weebly.com/</ErrorReportUrlHistory>
+    <ErrorReportUrlHistory>http://dodge-it.weebly.com/|http://officialwave.weebly.com/</ErrorReportUrlHistory>
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Dodge-it.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Dodge it.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Dodge-it.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Dodge-it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-    <commandLine file="Dodge-it.exe" parameters="" />
+    <assemblyIdentity name="Dodge it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Dodge it.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -43,18 +43,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dodge-it.exe" size="202752">
-      <assemblyIdentity name="Dodge-it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dodge it.exe" size="217600">
+      <assemblyIdentity name="Dodge it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>73zbX8ZPOKOjyeybzbOUzJh9u8q9r+yRtV6jUWNHIXE=</dsig:DigestValue>
+        <dsig:DigestValue>eFba9+1LnRXM+zMmupUWsCIzLAFHB/H7LuZpLwWV+mo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Dodge-it.exe.config" size="1597">
+  <file name="Dodge it.exe.config" size="1597">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -70,6 +70,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>NR9CZmckKvJHXWO8pluMYIfd22kZdqUurlbjoLMWzkA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Dodge-it.png" size="9181">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qhnkeX+5MS7wltFtlWmCexqL6IB5iuedztcLY84o3Xc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Explosion.wav" size="61900">

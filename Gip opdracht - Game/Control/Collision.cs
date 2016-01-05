@@ -15,7 +15,7 @@ namespace Gip_opdracht___Game.Control
         {
             //For each enemy
             for (int count = 0; count <= Entity.Enemy.Enemy.Variables.listEnemyLocations.Count - 1; count++) { 
-                if (Entity.Player.Player.Variables.pointPlayerLocation.X < Entity.Enemy.Enemy.Variables.listEnemyLocations[count].X + Entity.Enemy.Enemy.Variables.listEnemySize[count].Width && Entity.Player.Player.Variables.pointPlayerLocation.X + Entity.Player.Player.Variables.sizePlayerSize.Width > Entity.Enemy.Enemy.Variables.listEnemyLocations[count].X && Entity.Player.Player.Variables.pointPlayerLocation.Y < Entity.Enemy.Enemy.Variables.listEnemyLocations[count].Y + Entity.Enemy.Enemy.Variables.listEnemySize[count].Height && Entity.Player.Player.Variables.sizePlayerSize.Height + Entity.Player.Player.Variables.pointPlayerLocation.Y > Entity.Enemy.Enemy.Variables.listEnemyLocations[count].Y)
+                if (Entity.Player.Player.Variables.pointPlayerLocation.X < Entity.Enemy.Enemy.Variables.listEnemyLocations[count].X + Entity.Enemy.Enemy.Variables.listEnemySize[count].Width && Entity.Player.Player.Variables.pointPlayerLocation.X + Entity.Player.Player.Variables.sizePlayerSize.Width > Entity.Enemy.Enemy.Variables.listEnemyLocations[count].X && Entity.Player.Player.Variables.pointPlayerLocation.Y < Entity.Enemy.Enemy.Variables.listEnemyLocations[count].Y + Entity.Enemy.Enemy.Variables.listEnemySize[count].Height && Entity.Player.Player.Variables.sizePlayerSize.Height + Entity.Player.Player.Variables.pointPlayerLocation.Y > Entity.Enemy.Enemy.Variables.listEnemyLocations[count].Y && (GEngine.Variables.intGameState == 1 || GEngine.Variables.intGameState == 2))
                 {
                     collision();
                 }

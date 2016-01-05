@@ -12,7 +12,16 @@ namespace Gip_opdracht___Game.Utilities
         public static Random r = new Random();
         public static int getRandomInt(int lower, int upper)
         {
-            return r.Next(lower, upper);
+            int rnd = r.Next(lower, upper);
+            if(rnd != 0)
+            {
+                return rnd;
+            }
+            else
+            {
+                return getRandomInt(lower, upper);
+            }
+            
         }
         public static bool getRandomBool()
         {

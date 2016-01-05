@@ -18,10 +18,12 @@ namespace Gip_opdracht___Game.Menu
             public static List<Size> listSizeStringButtonOffset = new List<Size>();
             public static List<Color> listColorButtonColor = new List<Color>();
             public static List<string> listStringButtonString = new List<string>();
-            public static Font fontMenu = new Font("Arial", 25);
+            public static Font fontMenu = new Font("Impact", 25);
             public static Color colorMenu = Color.DarkBlue;
 
-            public static string stringKeyInput = "azerty";
+            public static Font fontMenuSmall = new Font("Impact", 14);
+
+            public static string stringKeyInput = "AZERTY";
             public static int intCoolDownTime = 10;
             public static int intCoolDown = intCoolDownTime;
         }
@@ -31,7 +33,7 @@ namespace Gip_opdracht___Game.Menu
             addMenuButton(483, 150, 250, 75, Color.White, "Start", 80, 16);
             addMenuButton(483, 250, 250, 75, Color.White, "Play random", 32, 16);
             addMenuButton(483, 350, 250, 75, Color.White, Variables.stringKeyInput, 80, 16);
-            addMenuButton(483, 450, 250, 75, Color.White, "Player color", 30, 16);
+            addMenuButton(483, 450, 250, 75, Color.White, "Player color", 32, 16);
         }
         //Add button
         public static void addMenuButton(int x, int y, int width, int height, Color color, string stringButton, int offsetX, int offsetY)
@@ -56,27 +58,29 @@ namespace Gip_opdracht___Game.Menu
                         //Start
                         GEngine.Variables.intGameState = 1;
                         Control.GameControl.saveGame();
+                        Control.GameControl.resetGame();
                     }
                     else if (count == 1)
                     {
                         Effects.Sound.playSoundSelect();
                         //Random
                         GEngine.Variables.intGameState = 2;
+                        Control.GameControl.resetGame();
                     }
                     else if (count == 2 && Variables.intCoolDown == Variables.intCoolDownTime)
                     {
                         Effects.Sound.playSoundSelect();
                         Control.GameControl.saveGame();
                         //Keys
-                        if (Variables.stringKeyInput == "qwerty")
+                        if (Variables.stringKeyInput == "QWERTY")
                         {
-                            Variables.stringKeyInput = "azerty";
+                            Variables.stringKeyInput = "AZERTY";
                             Properties.Settings.Default.keyUp = 90;
                             Properties.Settings.Default.keyDown = 83;
                             Properties.Settings.Default.keyLeft = 81;
                             Properties.Settings.Default.keyRight = 68;
                         }
-                        else if (Variables.stringKeyInput == "azerty")
+                        else if (Variables.stringKeyInput == "AZERTY")
                         {
                             Variables.stringKeyInput = "arrows";
                             Properties.Settings.Default.keyUp = 38;
@@ -86,7 +90,7 @@ namespace Gip_opdracht___Game.Menu
                         }
                         else if (Variables.stringKeyInput == "arrows")
                         {
-                            Variables.stringKeyInput = "qwerty";
+                            Variables.stringKeyInput = "QWERTY";
                             Properties.Settings.Default.keyUp = 87;
                             Properties.Settings.Default.keyDown = 83;
                             Properties.Settings.Default.keyLeft = 65;
@@ -111,6 +115,8 @@ namespace Gip_opdracht___Game.Menu
                         {
                             Effects.Sound.playSoundSelect();
                         }
+                        colorDialog.Dispose();
+                      
                         Control.GameControl.saveGame();
                     }
                     else
@@ -121,6 +127,15 @@ namespace Gip_opdracht___Game.Menu
                         }
                     }
                 }
+            }
+        }
+        //Calculate menu effects
+        public static void calculateMenuEffects()
+        {
+            if(Entity.Enemy.Enemy.Variables.listEnemyLocations.Count < 15 && GEngine.Variables.intGameState == 0)
+            {
+                Point point = new Point(Utilities.rnd.getRandomInt(0, Game.CANVAS_WIDTH - 16), Utilities.rnd.getRandomInt(0, Game.CANVAS_HEIGHT - 16));
+                Entity.Enemy.Enemy.createEnemy(point.X, point.Y, 16, 16, Utilities.rnd.getRandomInt(-5, 5), Utilities.rnd.getRandomInt(-5, 5), false, new SolidBrush(Utilities.rnd.getRandomColor()));
             }
         }
     }

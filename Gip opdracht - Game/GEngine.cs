@@ -14,9 +14,7 @@ namespace Gip_opdracht___Game
         //Variables
         public class Variables
         {
-
             public static int intGameState = 0;
-
         }
 
         //Members
@@ -84,6 +82,12 @@ namespace Gip_opdracht___Game
                 //Menu
                 if(Variables.intGameState == 0)
                 {
+                    
+                    //Enemy
+                    for (int count = 0; count <= Entity.Enemy.Enemy.Variables.listEnemyLocations.Count - 1; count++)
+                    {
+                        frameGraphics.FillRectangle(Entity.Enemy.Enemy.Variables.listEnemyColor[count], Entity.Enemy.Enemy.Variables.listEnemyLocations[count].X, Entity.Enemy.Enemy.Variables.listEnemyLocations[count].Y, Entity.Enemy.Enemy.Variables.listEnemySize[count].Width, Entity.Enemy.Enemy.Variables.listEnemySize[count].Height);
+                    }
                     //Buttons
                     for (int count = 0; count <= Menu.StartScreen.Variables.listPointButtonLocations.Count - 1; count++)
                     {
@@ -92,9 +96,17 @@ namespace Gip_opdracht___Game
                         //Draw the string
                         frameGraphics.DrawString(Menu.StartScreen.Variables.listStringButtonString[count], Menu.StartScreen.Variables.fontMenu, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[count]), Menu.StartScreen.Variables.listPointButtonLocations[count].X + Menu.StartScreen.Variables.listSizeStringButtonOffset[count].Width, Menu.StartScreen.Variables.listPointButtonLocations[count].Y + Menu.StartScreen.Variables.listSizeStringButtonOffset[count].Height);
                     }
-                    frameGraphics.DrawString(("Normal highscore: " + Properties.Settings.Default.HighScoreNormal + ", random highscore: " + Properties.Settings.Default.HighScoreRandom), Menu.StartScreen.Variables.fontMenu, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[0]), 0, 0);
-                    //Draw latest score
+                    //Draw highscores
+                    frameGraphics.DrawString(("Normal highscore: " + Properties.Settings.Default.HighScoreNormal), Menu.StartScreen.Variables.fontMenuSmall, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[0]), 0, 0);
+                    frameGraphics.DrawString(("Random highscore: " + Properties.Settings.Default.HighScoreRandom), Menu.StartScreen.Variables.fontMenuSmall, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[0]), 0, 22);
+                    //Draw player preview
+                    frameGraphics.DrawString("Your player", Menu.StartScreen.Variables.fontMenuSmall, new SolidBrush(Menu.StartScreen.Variables.listColorButtonColor[0]), 1018, 620);
+                    frameGraphics.FillRectangle(new SolidBrush(Color.FromArgb(Properties.Settings.Default.playerColor.R, Properties.Settings.Default.playerColor.G, Properties.Settings.Default.playerColor.B)), 1050, 650, Entity.Player.Player.Variables.sizePlayerSize.Width, Entity.Player.Player.Variables.sizePlayerSize.Height);
+                    //Draw logo
+                    frameGraphics.DrawImage(Properties.Resources.Dodge_it, new Point(415, 10));
+                    //Calculate menu
                     Menu.StartScreen.calculateMenu();
+                    Menu.StartScreen.calculateMenuEffects();
                 }
                 //Game
                 if (Variables.intGameState == 1 || Variables.intGameState == 2)
@@ -133,11 +145,11 @@ namespace Gip_opdracht___Game
 
                     //Do not change
                     //Calculate
-                    recalculateGame();
-                }               
+                }
+                recalculateGame();
 
                 //Draw to panel
-                
+
                 drawHandle.DrawImage(frame, 0, 0);             
 
                 //Benchmarking
