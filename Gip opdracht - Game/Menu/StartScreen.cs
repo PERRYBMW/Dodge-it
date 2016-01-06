@@ -32,7 +32,7 @@ namespace Gip_opdracht___Game.Menu
         {
             addMenuButton(483, 150, 250, 75, Color.White, "Start", 80, 16);
             addMenuButton(483, 250, 250, 75, Color.White, "Play random", 32, 16);
-            addMenuButton(483, 350, 250, 75, Color.White, Variables.stringKeyInput, 80, 16);
+            addMenuButton(483, 350, 250, 75, Color.White, Variables.stringKeyInput, 74, 16);
             addMenuButton(483, 450, 250, 75, Color.White, "Player color", 32, 16);
         }
         //Add button

@@ -1,13 +1,14 @@
-D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge-it.csprojResolveAssemblyReference.cache
-D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
-D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
-D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge-it.csproj.GenerateResource.Cache
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Dodge it.exe.config
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Dodge it.exe.manifest
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Dodge it.application
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Dodge it.exe
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Debug\Dodge it.pdb
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.GameWindow.resources
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Gip_opdracht___Game.Properties.Resources.resources
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge-it.csproj.GenerateResource.Cache
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge it.TrustInfo.xml
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge it.exe.manifest
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge it.application
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge it.exe
 D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge it.pdb
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Debug\Dodge-it.csprojResolveAssemblyReference.cache

@@ -60,7 +60,7 @@ namespace Gip_opdracht___Game.Control
         public static void getSpawnControlByLevel(int level)
         {
             if(Entity.Enemy.Enemy.Variables.listEnemyLocations.Count == 0)
-            {
+             {
                 //Sound
                 Effects.Sound.playSoundSpawn();
             }
@@ -307,6 +307,55 @@ namespace Gip_opdracht___Game.Control
                 Entity.Enemy.Enemy.createEnemy(1000, 687, 16, 16, 0, -2, false, Brushes.Red);
                 Entity.Enemy.Enemy.createEnemy(1100, 687, 16, 16, 0, -2, false, Brushes.Red);
                 Entity.Enemy.Enemy.createEnemy(1200, 687, 16, 16, 0, -2, false, Brushes.Red);
+
+                GameWindow.tmrTick.Enabled = true;
+            }
+            else if (level == 6 && Entity.Enemy.Enemy.Variables.listEnemyLocations.Count == 0)
+            {
+                //Left
+                Entity.Enemy.Enemy.createEnemy(16, 16, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 48, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 80, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 112, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 144, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 176, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 208, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 240, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 272, 16, 16, 5, 0, false, Brushes.Red);
+                //Space
+                Entity.Enemy.Enemy.createEnemy(16, 368, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 400, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 432, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 464, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 496, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 528, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 560, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 592, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 624, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 656, 16, 16, 5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(16, 688, 16, 16, 5, 0, false, Brushes.Red);
+                //Right
+                Entity.Enemy.Enemy.createEnemy(1199, 16, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 48, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 80, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 112, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 144, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 176, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 208, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 240, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 272, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 304, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 336, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 368, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 400, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 432, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 464, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 496, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 528, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 560, 16, 16, -5, 0, false, Brushes.Red);
+                //Space
+                Entity.Enemy.Enemy.createEnemy(1199, 656, 16, 16, -5, 0, false, Brushes.Red);
+                Entity.Enemy.Enemy.createEnemy(1199, 688, 16, 16, -5, 0, false, Brushes.Red);
 
                 GameWindow.tmrTick.Enabled = true;
             }

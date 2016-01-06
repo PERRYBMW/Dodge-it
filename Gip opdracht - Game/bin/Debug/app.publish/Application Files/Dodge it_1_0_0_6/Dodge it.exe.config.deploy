@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="Gip_opdracht___Game.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <userSettings>
+    <Gip_opdracht___Game.Properties.Settings>
+      <setting name="cmdInfo" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="keyUp" serializeAs="String">
+        <value>90</value>
+      </setting>
+      <setting name="keyDown" serializeAs="String">
+        <value>83</value>
+      </setting>
+      <setting name="keyLeft" serializeAs="String">
+        <value>81</value>
+      </setting>
+      <setting name="keyRight" serializeAs="String">
+        <value>68</value>
+      </setting>
+      <setting name="playerColor" serializeAs="String">
+        <value>Blue</value>
+      </setting>
+      <setting name="HighScoreNormal" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="HighScoreRandom" serializeAs="String">
+        <value>0</value>
+      </setting>
+    </Gip_opdracht___Game.Properties.Settings>
+  </userSettings>
+</configuration>

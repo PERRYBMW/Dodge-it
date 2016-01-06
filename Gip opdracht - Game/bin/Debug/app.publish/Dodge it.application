@@ -7,7 +7,7 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Dodge it.exe.manifest" size="6648">
+    <dependentAssembly dependencyType="install" codebase="Application Files\Dodge it_1_0_0_6\Dodge it.exe.manifest" size="6648">
       <assemblyIdentity name="Dodge it.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
