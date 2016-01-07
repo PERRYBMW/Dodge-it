@@ -55,6 +55,7 @@ namespace Gip_opdracht___Game
             //Size 
             Variables.gameWindowHeight = Size.Height;
             Variables.gameWindowHeight = Size.Width;
+
         }
 
         private void canvas_Paint(object sender, PaintEventArgs e)
@@ -93,8 +94,6 @@ namespace Gip_opdracht___Game
         {
             Variables.mouseClick = new Point(-1, -1);
         }
-
- 
 
     }
 }

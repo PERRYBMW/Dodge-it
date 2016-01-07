@@ -1,0 +1,13 @@
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Release\Dodge it.exe.config
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Release\Dodge it.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Release\Dodge it.application
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Release\Dodge it.exe
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\bin\Release\Dodge it.pdb
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Gip_opdracht___Game.GameWindow.resources
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Gip_opdracht___Game.Properties.Resources.resources
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Dodge-it.csproj.GenerateResource.Cache
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Dodge it.TrustInfo.xml
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Dodge it.exe.manifest
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Dodge it.application
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Dodge it.exe
+D:\Visual Studio\Projects\Gip - Game\Wave-Game\Gip opdracht - Game\obj\Release\Dodge it.pdb

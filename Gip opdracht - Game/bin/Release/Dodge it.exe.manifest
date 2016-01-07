@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dodge it.exe" size="219648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dodge it.exe" size="217088">
       <assemblyIdentity name="Dodge it" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KNCssAvkVC3rMnLXNyiqwxdl0d4lzsJdMHbbHawJ3Cw=</dsig:DigestValue>
+        <dsig:DigestValue>EDYKR3+GcCO8Tgis60DYckcMabeXu/2Lbq0kDwiPBwk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
